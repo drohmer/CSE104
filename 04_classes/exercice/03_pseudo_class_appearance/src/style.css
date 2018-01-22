@@ -1,0 +1,23 @@
+
+body {
+	text-align: center;
+}
+
+
+p {
+	display: none;
+	padding: 15px;
+	background-color: yellow;
+	border: 2px solid black;
+	border-radius: 15px;
+	width: 500px;
+	height: 100px;
+	font-size: 200%;
+}
+
+h1:hover+p {
+	display: inline-block;
+}
+
+
+
