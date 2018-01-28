@@ -47,10 +47,10 @@ Consider the following code
 * __flex-direction__ allow to set the direction of the items (left to right, top to bottom, etc).
 <br/>
 Try the following direction:<br/>
-  * row (default)
-  * row-reverse
-  * column
-  * column-reverse
+   * row (default)
+   * row-reverse
+   * column
+   * column-reverse
 
 * __flex-wrap__ allow the items to wrap inside the container when needed.
 <br/>
