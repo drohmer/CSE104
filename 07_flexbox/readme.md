@@ -47,6 +47,7 @@ Consider the following code
 * __flex-direction__ allow to set the direction of the items (left to right, top to bottom, etc).
 <br/>
 Try the following direction:
+
   * row (default)
   * row-reverse
   * column
@@ -55,6 +56,7 @@ Try the following direction:
 * __flex-wrap__ allow the items to wrap inside the container when needed.
 <br/>
 Try the following options:
+
   * no-wrap (default)
   * wrap
   * wrap-reverse
@@ -63,6 +65,7 @@ Try the following options:
 * __justify-content__ allow to set the horizontal placement of the items and space between items.
 <br/>
 Try the following options:
+
   * flex-start (default)
   * flex-end
   * center
@@ -72,6 +75,7 @@ Try the following options:
 * __align-content__ allow to set the vertical placement and space between lines of items. Align-content acts when items span several lines of contents.
 <br/>
 Test the following options (change the width of the items to ensure that they span multiple lines):
+
   * stretch (default, items should not have fixed height)
   * center
   * flex-start
@@ -82,6 +86,7 @@ Test the following options (change the width of the items to ensure that they sp
 * __align-items__ allow to set the vertical placement and size of the items, even if there is only one line of items.
 <br/>
 Comment out the height of item in the CSS, and try the following options:
+
   * stretch (default, items should not have fixed height)
   * center
   * flex-start
