@@ -44,6 +44,16 @@ Consider the following code
 
 ## Property of the container
 
+### Flex-direction
+
+allow to set the direction of the flow of the items (left to right, top to bottom, etc)
+Try the following direction:
+* row (default)
+* row-reverse
+* column
+* column-reverse
+
+
 * __flex-direction__ allow to set the direction of the items (left to right, top to bottom, etc).
 <br/>
 Try the following direction:<br/>
