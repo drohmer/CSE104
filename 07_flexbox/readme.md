@@ -46,28 +46,20 @@ Consider the following code
 
 ### Flex-direction
 
-allow to set the direction of the flow of the items (left to right, top to bottom, etc)
+Allow to set the direction of the flow of the items (left to right, top to bottom, etc)
 Try the following direction:
 * row (default)
 * row-reverse
 * column
 * column-reverse
 
+### Flex-wrap
 
-* __flex-direction__ allow to set the direction of the items (left to right, top to bottom, etc).
-<br/>
-Try the following direction:<br/>
-   * row (default)
-   * row-reverse
-   * column
-   * column-reverse
-
-* __flex-wrap__ allow the items to wrap inside the container when needed.
-<br/>
-Try the following options:<br/>
-  * no-wrap (default)
-  * wrap
-  * wrap-reverse
+Allow the items to wrap inside the container when needed.
+Try the following options:
+* no-wrap (default)
+* wrap
+* wrap-reverse
 
 
 * __justify-content__ allow to set the horizontal placement of the items and space between items.
