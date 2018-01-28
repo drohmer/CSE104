@@ -159,7 +159,7 @@ __Q.__ Write the CSS code that mimic the behavior of the webpage `01_header_foot
 	</section>
 
 	<footer>
-		<p>The footer, in the bottom and also centered.</p>
+		<p>The footer, in the bottom and on the right.</p>
 	</footer>
 
 </article>
