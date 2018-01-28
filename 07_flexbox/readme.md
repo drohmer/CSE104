@@ -61,39 +61,45 @@ Try the following options:
 * wrap
 * wrap-reverse
 
+### Justify-content
 
-* __justify-content__ allow to set the horizontal placement of the items and space between items.
-<br/>
-Try the following options:<br/>
-  * flex-start (default)
-  * flex-end
-  * center
-  * space-between
-  * space-around
+Allow to set the horizontal placement of the items and space between items.
+Try the following options:
+* flex-start (default)
+* flex-end
+* center
+* space-between
+* space-around
 
-* __align-content__ allow to set the vertical placement and space between lines of items. Align-content acts when items span several lines of contents.
-<br/>
-Test the following options (change the width of the items to ensure that they span multiple lines):<br/>
-  * stretch (default, items should not have fixed height)
-  * center
-  * flex-start
-  * flex-end
-  * space-between
-  * space-around
+### Align-content
 
-* __align-items__ allow to set the vertical placement and size of the items, even if there is only one line of items.
-<br/>
-Comment out the height of item in the CSS, and try the following options:<br/>
-  * stretch (default, items should not have fixed height)
-  * center
-  * flex-start
-  * flex-end
+Allow to set the vertical placement and space between lines of items. Align-content acts when items span several lines of contents.
+
+Test the following options (change the width of the items to ensure that they span multiple lines):
+* stretch (default, items should not have fixed height)
+* center
+* flex-start
+* flex-end
+* space-between
+* space-around
+
+### Align-items
+
+Allow to set the vertical placement and size of the items, even if there is only one line of items.
+
+Comment out the height of item in the CSS, and try the following options:
+* stretch (default, items should not have fixed height)
+* center
+* flex-start
+* flex-end
 
 ## Property of items
 
 Items can have specific properties.
 
-* __flex-grow__ / __shrink__: allow to define the ability of an item to grow/shrink within the container.
+### Flex-grow, flex-shrink
+
+Allow to define the ability of an item to grow/shrink within the container.
 
 Exemple:
 ```html
