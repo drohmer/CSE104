@@ -6,7 +6,7 @@
 __Q.__ Create a first HTML webpage
 
 * Create a file named _index.html_
-* Edit this file using a text editor (for instance [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/))
+* Edit this file using a text editor (for instance [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/), [Visual Studio Code](https://code.visualstudio.com/))
 * Fill it with the following code
 
 ```html
@@ -30,10 +30,12 @@ __Q.__ Create a first HTML webpage
 
 ## HTML tags
 
-The goal of HTML tags is to provide a structure to your document. Well placed tags allows to efficiently understand, and thus index (such as for Google search engine), your webpage. Tags may have defaul visual behavior (usually inherited from old time), however this visual appearance can be modified (see CSS later on). Therefore, as a good practice in HTML5, your choice of tag should be guided by its semantic meaning (/the structure of your document), and not by their visual appearance.
+The goal of HTML tags is to provide a structure to your document. Well placed tags allows to efficiently understand, and thus index (such as for Google search engine), your webpage. Tags may have defaul visual behavior (usually inherited from old time), however this visual appearance can be modified (see CSS later on). 
+
+Therefore, as a good practice in HTML5, your choice of tag should be guided by its semantic meaning (/the structure of your document), and not by their visual appearance.
 
 
-__Q.__ The following tags are often used and may be worth to remember. Experiment with them to observe they default behaviors. Do not hesitate to refer to the [exhaustive list of HTML](https://www.w3schools.com/tags/) for more tags and info.
+__Q.__ The following tags are often used and may be worth to remember. Experiment with them to observe they default behaviors. Do not hesitate to refer to the exhaustive list of HTML (see [W3School](https://www.w3schools.com/tags/), or [Mozilla Development Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)) for more tags and info.
 
 
 * [`<h2>`, `<h3>`, ..., `<h6>`](https://www.w3schools.com/tags/tag_hn.asp): Title tags
@@ -123,7 +125,7 @@ _Note: Table should be used to visualize data which are organized as table (sema
 
 ### HTML Validator
 
-Browsers are usually not following strict HTML5 rules in order to be robust to syntax errors, an to not break old style HTML programming. They typically allow _incorrect_ html code to be rendered in a "correct" way, helping non expert developers to obtain quickly visual results. 
+Browsers are usually not following strict HTML5 rules in order to be robust to syntax errors, and to avoid breaking old style HTML programming. They typically allow _incorrect_ html code to be rendered in a "correct" way, helping non expert developers to obtain quickly visual results. 
 While, often, rendering correctly in browser, writting non standard code is considered as a bad practice. It may render differently on various browser, and may be rendered incorrectly in the future version of the browser.
 
 A good practice consists in checking your HTML code in validator.
@@ -132,5 +134,7 @@ Try to check regularily if your HTML code is valid, many typos and errors which 
 
 ### Exercice
 
-__Q.__ Try to immitate the [following webpage](exercice/index.html). Use when possible relevant tags instead of hard coded decorating characters.
+__Q.__ Try to immitate the webpage in the `exercice/` directory. Use when possible relevant tags instead of hard coded decorating characters.
+
+![](pics/exercice.jpg)
 

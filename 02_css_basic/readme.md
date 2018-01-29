@@ -2,7 +2,7 @@
 
 ## Style file sheet
 
-CSS stands for Cascading Style Sheet, allows to finely tune the visual appearance of HTML content.
+CSS stands for __Cascading Style Sheet__. CSS allows to finely tune the visual appearance of HTML content.
 
 * Consider the following basic HTML file
 
