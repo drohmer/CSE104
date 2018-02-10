@@ -1,0 +1,75 @@
+.invisible {
+	display: none;
+}
+
+body {
+	background-color: mediumpurple;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+article {
+	margin: auto;
+	width: 350px;
+	height: 500px;
+	background-color: white;
+	border-radius: 15px;
+
+	display: flex;
+	flex-direction: column;
+	box-shadow: 5px 5px 15px;
+	
+}
+
+.logo {
+
+	width: 80px;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	flex-grow: 1;
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.wrap-pic {
+	display: inline-block;
+	width: 35px;
+}
+
+a{
+	font-size: 1.5em;
+	padding-left: 1em;	
+	text-decoration: none;
+	height: 1.5em;
+	padding-top: 0.5em;
+	color: gray;
+}
+a:hover {
+	background-color: #F7F2FF;
+	color: magenta;
+}
+
+img {
+	padding-right: 0.5em;
+}
+
+
+
+
+
+.picture {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+
+	width: 150px;
+}
