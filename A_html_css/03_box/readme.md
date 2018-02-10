@@ -1,11 +1,16 @@
 # CSS: Box Model
 
 
-The _HTML Box Model_ defines the rectangular regions occupied by HTML elements.
+The [_HTML Box Model_](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model) defines the rectangular regions occupied by HTML elements.
 
-The Box Model define each region by a __margin__: the empty space between the neighboring box and the current one); a [__border__](https://www.w3schools.com/css/css_border.asp) which can be visualized if needed; a __padding__: the empty space between the border and the content inside the box. The __width__ and __height__ of a box corresponds to the size of the border (inside the margin).
+The Box Model define each region by 
+* a __margin__: the empty space between the neighboring box and the current one) 
+* a [__border__](https://www.w3schools.com/css/css_border.asp) which can be visualized if needed
+* a __padding__: the empty space between the border and the content inside the box. 
 
-![](bloc_model.png)
+The __width__ and __height__ of a box corresponds to the size of the border (inside the margin).
+
+![](pics/bloc_model.png)
 
 _The HTML box model_
 
@@ -103,7 +108,7 @@ Note that when the width is not fixed by the user, the container expands along t
 
 ### Inline
 
-Inline is used to display element with a _text-like_ behavior. Inline elements has width and height that adapts to its content and cannot be set from the CSS style. Padding and margin are acting on left and right (similarily to margin in written paper), but are not adapted to work for top and bottom.
+Inline is used to display element with a _text-like_ behavior. Inline element has width and height that adapts to its content and cannot be set from the CSS style. Padding and margin are acting on left and right (similarily to margin in written paper), but are not adapted to work for top and bottom.
 
 Tags highlighting words with some properties such as `<a>`, `<em>`, `<strong>` have by default inline display behavior.
 
@@ -172,7 +177,7 @@ Consider the following HTML body
 
 __Q.__ Adapt the CSS code to obtain the following appearance:
 
-![](exercice_block.png)
+![](pics/exercice_block.png)
 
 _When appropriate, don't forget to avoid code duplication in factorizing common properties within the same rule._
 

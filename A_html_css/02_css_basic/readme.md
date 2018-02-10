@@ -60,7 +60,7 @@ selector {
 ```
 
 The `selector` allows to select a subset of HTML tags on which the pair `property:value` will be applied.
-This unit containing a `selector` and a set of `property:value` is called a CSS rule.
+The unit containing a `selector` and a set of `property:value` is called a CSS rule.
 
 There exists a large amount of CSS properties. Don't hesitate to check the [reference](https://www.w3schools.com/cssref/default.asp) to check for specific properties.
 
@@ -77,7 +77,7 @@ This cascading behavior allows to organize the visual appearance of the webpage 
 
 ## Selector combination
 
-Selector can be combined to refine the selected elements, the most common combination are (there is more possible [combinations of elements](https://www.w3schools.com/cssref/css_selectors.asp))
+Selector can be combined to refine the selected elements, the most common combination are (more complex [combinations of elements](https://www.w3schools.com/cssref/css_selectors.asp) are possible)
 
 * `e1, e2`: is the union of all elements `e1` and all elements `e2`
 * `e1 e2`: is the elements `e2` child of element `e1`
@@ -123,3 +123,10 @@ section h1{
 
 __Q.__ Create the rule such that all the `<h1>` titles, and the `<p>` elements which are inside a `<footer>` tag are underlined (see [text-decoration](https://www.w3schools.com/cssref/pr_text_text-decoration.asp) property).
 
+# Note on HTML/CSS
+
+Every time a new code has to be tested, you need to re-create a new HTML (with its header) and CSS file. This may be cumbersome when trying many possibilities.
+
+You may use some web tools such as [Code Pen](https://codepen.io/) allowing to quickely check HTML/CSS content if you want.
+
+Keep however in mind, that you should only use such tools, when you are already able to create yourself html and css file from scratch.
