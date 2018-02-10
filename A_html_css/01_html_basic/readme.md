@@ -35,7 +35,9 @@ The goal of HTML tags is to provide a structure to your document. Well placed ta
 Therefore, as a good practice in HTML5, your choice of tag should be guided by its semantic meaning (/the structure of your document), and not by their visual appearance.
 
 
-__Q.__ The following tags are often used and may be worth to remember. Experiment with them to observe they default behaviors. Do not hesitate to refer to the exhaustive list of HTML (see [W3School](https://www.w3schools.com/tags/), or [Mozilla Development Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)) for more tags and info.
+__Q.__ The following tags are often used and may be worth to remember. Experiment with them to observe their default behaviors. 
+
+Note: Don't hesitate to refer to the exhaustive list of HTML (see [W3School](https://www.w3schools.com/tags/), or [Mozilla Development Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)) for more tags and info.
 
 
 * [`<h2>`, `<h3>`, ..., `<h6>`](https://www.w3schools.com/tags/tag_hn.asp): Title tags
@@ -50,7 +52,7 @@ __Q.__ The following tags are often used and may be worth to remember. Experimen
 
 * [`<br>`](https://www.w3schools.com/TAgs/tag_br.asp): A line break.
 
-	ex. '<p> A first line. <br> A second line.</p>'
+	ex. `<p> A first line. <br> A second line.</p>`
 
 * [`<a>`](https://www.w3schools.com/tags/tag_a.asp): A link to another webpage
 
