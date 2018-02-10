@@ -26,11 +26,7 @@ To access to the content of the lab class and the code, you should also download
 * Simplest to start with
 * In the case where the repository is updated, you will need to download a new Zip archive.
 
-<div style="border: 1px solid lightgray">
-![](pics/download_zip.jpg)
-</div>
-
-![](pics/download_zip.jpg)
+![](.pics/download_zip.jpg)
 
 
 ### Alternative: use git subversion
