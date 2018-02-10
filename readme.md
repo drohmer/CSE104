@@ -38,3 +38,7 @@ As an alternative to zip download, you may use git subversion.
 
 Using git allow you to update the code repository using the command
 `git pull`
+
+## General information and reminder
+
+[General information on rules to follow, browsers, and editors.](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/general_doc/general_reminder/index.html)
