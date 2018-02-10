@@ -6,7 +6,7 @@
 __Q.__ Create a first HTML webpage
 
 * Create a file named _index.html_
-* Edit this file using a text editor (for instance [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/), [Visual Studio Code](https://code.visualstudio.com/))
+* Edit this file using a text editor (see [available and recommended text editor](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/general_doc/general_reminder/index.html))
 * Fill it with the following code
 
 ```html
