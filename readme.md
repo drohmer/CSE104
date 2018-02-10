@@ -27,7 +27,7 @@ To access to the content of the lab class and the code, you should also download
 * In the case where the repository is updated, you will need to download a new Zip archive.
 
 <div style="border: 1px solid lightgray">
-![zip image](.pics/download_zip.jpg)
+![zip image](pics/download_zip.jpg)
 </div>
 
 
