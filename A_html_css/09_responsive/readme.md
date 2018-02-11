@@ -37,7 +37,7 @@ __Rem.__ Unless you have specific reason, you should always include this viewpor
 
 The [CSS media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) allows to set specific rules adapting to your device or screen width and height.
 
-* Example 1:
+### Example 1 - background color:
 
 Consider an empty html webpage and the following CSS code
 ```css
@@ -63,7 +63,7 @@ For large screen, the background will be cyan. When resizing to a smaller window
 Using `max-width` appropriately can enable you to make adjustment to the display of your webpage.
 
 
-* Exemple 2 - Responsive menu
+### Exemple 2 - Responsive menu
 
 It is common to have horizontal menu on wide screen, while vertical one may be more appropriate for tall one such as for mobile.
 
@@ -109,6 +109,10 @@ a:hover {
 }
 ```
 
+### Exercice
+
 __Q.__ Try to create a webpage that mimic the behavior of the one from `exercice/menu/`.
 
-Note that typical responsive menu with more general behavior are coded using JavaScript, and not only CSS rules.
+![](pics/exercice.gif)
+
+_Note that typical responsive menu with more general behavior are coded using JavaScript, and not only CSS rules._
