@@ -138,9 +138,6 @@ Try to check regularily if your HTML code is valid, many typos and errors which 
 
 __Q.__ Try to immitate the webpage in the `exercice/` directory. Use when possible relevant tags instead of hard coded decorating characters.
 
-
-<div style="width:500px; border:1px solid black">
 ![](pics/exercice.jpg)
-</div>
 
 __Note__: The source code of the exercices is obfuscated. The objective is to re-create the behavior from your observation, not to try de-obfuscating the source code.
