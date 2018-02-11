@@ -81,7 +81,7 @@ _Note: It is usually useless to refine the selection of an ID, as it defines a u
 Example (take care to understand well their differences):
 * `p.label`: Select `p` elements with the `label` class.
 * `p, .label`: Select all `p` elements, and all elements with `label` class.
-* `p .label`: Select elements, child of `p`, with `label` class.
+* `p .label`: Select elements, children of `p`, with `label` class.
 
 __Q.__ Explain in full text which elements would be selected by these selectors
 
@@ -92,9 +92,9 @@ __Q.__ Explain in full text which elements would be selected by these selectors
 
 ## Pseudo classes
 
-Pseudo-classes are used to define a specific state of an element, typically to indicate when the user pass the mouse over the element. Pseudo classes allows CSS to interact (although in a limited way) with the action of the user.
+Pseudo-classes are used to define a specific state of an element, typically to indicate when the user pass the mouse over the element. Pseudo classes allow CSS to interact (although in a limited way) with the action of the user.
 
-Pseudo classes are used by default on links element `<a>` that change of color when the mouse passes over, and once the link has been visited.
+Pseudo classes are used by default on links element `<a>` that change color when the mouse passes over, and once the link has been visited.
 Pseudo classes can however be used on any elements.
 
 __Q.__ Try the following example
@@ -128,7 +128,12 @@ a:active {
 }
 ```
 
-__Q.__ Use pseudo class on `<p>` elements to mimic the behavior of [this page](exercice/01_pseudo_class_box/index.html). Note the behavior when passing and clicking over the boxes.
+__Q.__ Use pseudo class on `<p>` elements to mimic the behavior of the page from the exercice directory `01_peuso_class_box/`. Note the behavior when passing and clicking over the boxes.
+
+<iframe width="700px" height="200px" frameBorder="0" src="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/01_pseudo_class_box/">
+</iframe>
+
+(<a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/01_pseudo_class_box/">link to the page</a>)
 
 __Q.__ Considering the following HTML body code to mimic a menu
 
@@ -139,7 +144,12 @@ __Q.__ Considering the following HTML body code to mimic a menu
 <a href=""> About </a>
 ```
 
-try to create the CSS associated to the [behavior of this page](exercice/02_pseudo_class_menu/index.html).
+try to create the CSS associated to the behavior of exercice in directory `02_pseudo_class_menu/`.
+
+<iframe width="700px" height="100px" src="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">
+</iframe>
+
+(<a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">link to the page</a>)
 
 
 __Q.__ Try to imitate the behavior of [this page](exercice/03_pseudo_class_appearance/index.html) using pseudo classes.

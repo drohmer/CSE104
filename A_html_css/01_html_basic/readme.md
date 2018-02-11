@@ -143,3 +143,4 @@ __Q.__ Try to immitate the webpage in the `exercice/` directory. Use when possib
 ![](pics/exercice.jpg)
 </div>
 
+__Note__: The source code of the exercices is obfuscated. The objective is to re-create the behavior from your observation, not to try de-obfuscating the source code.
