@@ -56,16 +56,16 @@ __Q.__ Consider the following code
 ```css
 /** Keyframes of an animation */
 @keyframes left-to-right {
-	0% {left: 0;}
-	100% {left: 80vw;}
+  0% {left: 0;}
+  100% {left: 80vw;}
 }
 
 h1 {
-	display: inline-block;
+  display: inline-block;
   position: relative;
-	padding: 0.5em;
-	border: 2px solid black;
-	background: yellow;
+  padding: 0.5em;
+  border: 2px solid black;
+  background: yellow;
 
   /** Specify the animation to play*/
   animation-name: left-to-right;
