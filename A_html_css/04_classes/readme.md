@@ -128,12 +128,9 @@ a:active {
 }
 ```
 
-__Q.__ Use pseudo class on `<p>` elements to mimic the behavior of the page from the exercice directory `01_peuso_class_box/`. Note the behavior when passing and clicking over the boxes.
+__Q.__ Use pseudo class on `<p>` elements to mimic the <a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/01_pseudo_class_box/">behavior of the page</a> from the exercice directory `01_peuso_class_box/`. Note the behavior when passing and clicking over the boxes.
 
-<iframe width="700px" height="200px" frameBorder="0" src="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/01_pseudo_class_box/">
-</iframe>
-
-(<a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/01_pseudo_class_box/">link to the page</a>)
+![](pictures/exercice_01.gif)
 
 __Q.__ Considering the following HTML body code to mimic a menu
 
@@ -144,15 +141,14 @@ __Q.__ Considering the following HTML body code to mimic a menu
 <a href=""> About </a>
 ```
 
-try to create the CSS associated to the behavior of exercice in directory `02_pseudo_class_menu/`.
-
-<iframe width="700px" height="100px" src="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">text
-</iframe>
-
-(<a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">link to the page</a>)
+try to create the CSS associated to the <a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">behavior</a> of exercice in directory `02_pseudo_class_menu/`.
 
 
-__Q.__ Try to imitate the behavior of [this page](exercice/03_pseudo_class_appearance/index.html) using pseudo classes.
+![](pictures/exercice_02.gif)
+
+__Q.__ Try to imitate the behavior of <a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/03_pseudo_class_appearance/">this page</a> (directory `03_pseudo_class_appearance`) using pseudo classes.
+
+![](pictures/exercice_03.gif)
 
 __Hints__:
 * `display:none;` allows to hide an element.
