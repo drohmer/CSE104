@@ -146,7 +146,7 @@ __Q.__ Considering the following HTML body code to mimic a menu
 
 try to create the CSS associated to the behavior of exercice in directory `02_pseudo_class_menu/`.
 
-<iframe width="700px" height="100px" src="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">
+<iframe width="700px" height="100px" src="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">text
 </iframe>
 
 (<a href="https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/A_html_css/04_classes/exercice/02_pseudo_class_menu/">link to the page</a>)
