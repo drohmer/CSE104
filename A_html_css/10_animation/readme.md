@@ -40,6 +40,7 @@ And note that the change of appearance is now smooth.
 
 __Q.__ Re-create the behavior shown in the webpage from `exercice/01_transition/`. You can re-use the HTML and CSS code you used in the previous part from the similar webpage.
 
+![](pics/transition.gif)
 
 ## Keyframes
 
@@ -89,6 +90,8 @@ animation-direction: alternate-reverse;
 ## Exercices
 
 __Q.__ Create a webpage that has the behavior of the pendulum shown in the directory `exercice/02_pendulum`
+
+![](pics/pendulum.gif)
 
 Hints:
 * You can create a 2D disc from a square in setting `round-border: 50%;`
