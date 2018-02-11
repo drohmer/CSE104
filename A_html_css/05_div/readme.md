@@ -3,7 +3,7 @@
 
 ## Role of anonymous container
 
-Remember that HTML5 define a [large number of tags](https://www.w3schools.com/tags/default.asp). Although their display can be fully adapted to the expected one, they are attached to a semantic meaning that should be preserved (ex. `<p>` should be used for a paragraph of text, `<h1>` for titles, `<li>` for listings, etc).
+Remember that HTML5 define a [large number of tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). Although their display can be fully adapted to the expected one, they are attached to a semantic meaning that should be preserved (ex. `<p>` should be used for a paragraph of text, `<h1>` for titles, `<li>` for listings, etc).
 
 In some situations, we may take advantages of grouping together elements, in order to apply a common CSS rule, or grouping them visually. This group may not have a specific semantical meaning excepted sharing a visual behavior, or may have a semantic which doesn't exists in the existing named tag.
 

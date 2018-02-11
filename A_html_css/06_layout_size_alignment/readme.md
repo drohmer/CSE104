@@ -53,6 +53,8 @@ div {
 
 __Q.__ Try to create a webpage with the layout shown in the exercice _Image and box_
 
+![](pics/exercice.png)
+
 _Hint:_ You may use `vertical-align: top` and `bottom` in order to align elements with the tallest/lowest element instead of `text-top` and `text-bottom` computing the alignment with respect to the text.
 
 
@@ -177,7 +179,4 @@ As a summary:
 
 
 
-
-
-## Exercices
 
