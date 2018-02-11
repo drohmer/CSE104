@@ -93,6 +93,8 @@ Note that the element in fixed mode is removed from the normal document flow, an
 
 __Q.__ Use the fixed mode to model the behavior of a menu that remains constantly on the screen as shown in example `01_fixed_menu`
 
+![](pics/exercice_01.gif)
+
 Hints:
 * The transparent color can be defined by `rgba(r,g,b,a)`. The last number (alpha) defines the percentage of opacity (can be a number between 0 and 1).
 * The textual content can be filled by automatic [text generator](http://www.blindtextgenerator.com/lorem-ipsum).

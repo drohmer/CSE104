@@ -144,7 +144,7 @@ Note that CSS-grid is still recent, and older browser may not be able to handle 
 ## Exercices
 
 
-__Q.__ Write the CSS code that mimic the behavior of the webpage `01_header_footer`, provided the following html content
+__Q.__ Write the CSS code that mimic the behavior of the webpage from directory `01_header_footer/`, provided that the html code is the following
 
 ```html
 <body>
@@ -170,7 +170,7 @@ __Q.__ Write the CSS code that mimic the behavior of the webpage `01_header_foot
 
 _Hint:_ The article can be a flex container with column direction. Header and footer can be flex containers with specific `justifify-content`.
 
-__Q.__ Create the html and css code copying the style of the webpage `02_app_layout`.
+__Q.__ Create the html and css code copying the style of the webpage `02_app_layout/`.
 
 ![](pictures/exercice_02.png)
 
