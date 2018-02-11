@@ -62,14 +62,14 @@ __Q.__ Consider the following code
 
 h1 {
 	display: inline-block;
-    position: relative;
+  position: relative;
 	padding: 0.5em;
 	border: 2px solid black;
 	background: yellow;
 
-    /** Specify the animation to play*/
-    animation-name: left-to-right;
-    animation-duration: 4s;
+  /** Specify the animation to play*/
+  animation-name: left-to-right;
+  animation-duration: 4s;
 }
 ```
 
