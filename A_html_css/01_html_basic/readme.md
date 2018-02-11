@@ -30,7 +30,7 @@ __Q.__ Create a first HTML webpage
 
 ## HTML tags
 
-The goal of HTML tags is to provide a structure to your document. Well placed tags allows to efficiently understand, and thus index (such as for Google search engine), your webpage. Tags may have defaul visual behavior (usually inherited from old time), however this visual appearance can be modified (see CSS later on). 
+The goal of HTML tags is to provide a structure to your document. Well placed tags allows to efficiently understand, and thus index (such as for Google search engine), your webpage. Tags may have default visual behavior (usually inherited from old time), however this visual appearance can be modified (see CSS later on). 
 
 Therefore, as a good practice in HTML5, your choice of tag should be guided by its semantic meaning (/the structure of your document), and not by their visual appearance.
 
@@ -72,7 +72,7 @@ Note: Don't hesitate to refer to the exhaustive list of HTML (see [W3School](htt
        <li>Second element</li>
        <li>Third element</li>
          <ul>
-         	<li> Element of neasted list </li>
+         	<li> Element of nested list </li>
          	<li> Second element</li>
          </ul>
     </ul>
@@ -111,7 +111,7 @@ Note: Don't hesitate to refer to the exhaustive list of HTML (see [W3School](htt
        	</tr>
        </table>
     ```
-_Note: Table should be used to visualize data which are organized as table (semantic meaningà, but not to place arbitrary elements in front of each other (visual appearance)_
+_Note: Table should be used to visualize data which are organized as table (semantic meaning, but not to place arbitrary elements in front of each other (visual appearance)_
 
 * [`<q>`](https://www.w3schools.com/tags/tag_q.asp): Quote
 
@@ -128,16 +128,16 @@ _Note: Table should be used to visualize data which are organized as table (sema
 ### HTML Validator
 
 Browsers are usually not following strict HTML5 rules in order to be robust to syntax errors, and to avoid breaking old style HTML programming. They typically allow _incorrect_ html code to be rendered in a "correct" way, helping non expert developers to obtain quickly visual results. 
-While, often, rendering correctly in browser, writting non standard code is considered as a bad practice. It may render differently on various browser, and may be rendered incorrectly in the future version of the browser.
+While, often, rendering correctly in browser, writing non standard code is considered as a bad practice. It may render differently on various browser, and may be rendered incorrectly in the future version of the browser.
 
 A good practice consists in checking your HTML code in validator.
 The [W3C Validator](https://validator.w3.org/) is a common tool to check that your code follows standard rules (browser extensions are also available).
-Try to check regularily if your HTML code is valid, many typos and errors which are silencely rendered by your browser can be detected and cleaned up.
+Try to check regularly if your HTML code is valid, many typos and errors which are silently rendered by your browser can be detected and cleaned up.
 
-### Exercice
+### Exercise
 
-__Q.__ Try to immitate the webpage in the `exercice/` directory. Use when possible relevant tags instead of hard coded decorating characters.
+__Q.__ Try to imitate the webpage in the `exercice/` directory. Use when possible relevant tags instead of hard-coded decorating characters.
 
 ![](pics/exercice.jpg)
 
-__Note__: The source code of the exercices is obfuscated. The objective is to re-create the behavior from your observation, not to try de-obfuscating the source code.
+__Note__: The source code of the exercises is obfuscated. The objective is to re-create the behavior from your observation, not to try de-obfuscating the source code.

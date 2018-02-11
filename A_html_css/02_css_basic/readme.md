@@ -48,7 +48,7 @@ h1 {
 
 ## CSS Structure
 
-CSS documents is organized as follow
+CSS documents are organized as follows
 
 ```css
 selector {
@@ -62,14 +62,14 @@ selector {
 The `selector` allows to select a subset of HTML tags on which the pair `property:value` will be applied.
 The unit containing a `selector` and a set of `property:value` is called a CSS rule.
 
-There exists a large amount of CSS properties. Don't hesitate to check the [reference](https://www.w3schools.com/cssref/default.asp) to check for specific properties.
+There exists a large number of CSS properties. Don't hesitate to check the [reference](https://www.w3schools.com/cssref/default.asp) to check for specific properties.
 
 ## Cascading selection
 
 In the previous example, the text `My first webpage` is included in both `body` and `h1` tags. It is therefore selected in two different rules.
 
 This is where the __Cascading__ evaluation of CSS has to be considered:
-Each element inherit the style from its parent. When there is a conflicting property defined several times, the one associated to the [more specific](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) selector is applied.
+Each element inherits the style from its parent. When there is a conflicting property defined several times, the one associated with the [more specific](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) selector is applied.
 In this case, the `body` selector is considered as less specific than `h1` (body contains all the content of the webpage body).
 In the case where two selectors have the same specificity, the rule which is declared last is applied.
 
@@ -77,7 +77,7 @@ This cascading behavior allows to organize the visual appearance of the webpage 
 
 ## Selector combination
 
-Selector can be combined to refine the selected elements, the most common combination are (more complex [combinations of elements](https://www.w3schools.com/cssref/css_selectors.asp) are possible)
+Selectors can be combined to refine the selected elements, the most common combination are (more complex [combinations of elements](https://www.w3schools.com/cssref/css_selectors.asp) are possible)
 
 * `e1, e2`: is the union of all elements `e1` and all elements `e2`
 * `e1 e2`: is the elements `e2` child of element `e1`
@@ -127,6 +127,6 @@ __Q.__ Create the rule such that all the `<h1>` titles, and the `<p>` elements w
 
 Every time a new code has to be tested, you need to re-create a new HTML (with its header) and CSS file. This may be cumbersome when trying many possibilities.
 
-You may use some web tools such as [Code Pen](https://codepen.io/) allowing to quickely check HTML/CSS content if you want.
+You may use some web tools such as [Code Pen](https://codepen.io/) allowing to quickly check HTML/CSS content if you want.
 
-Keep however in mind, that you should only use such tools, when you are already able to create yourself html and css file from scratch.
+Keep, however, in mind that you should only use such tools, when you are already able to create yourself html and css file from scratch.
