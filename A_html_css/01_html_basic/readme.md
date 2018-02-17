@@ -94,6 +94,13 @@ Note: Don't hesitate to refer to the exhaustive list of HTML (see [W3School](htt
 
 	![](https://www.w3.org/html/logo/downloads/HTML5_Logo_128.png)
 
+  Note the [`alt`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) attribute refering to an alternate text describing the image. This `alt` description may be used as follow:
+	* It appears when the picture cannot be loaded (broken link, slow connection, command line browser, etc.)
+	* Can be used and analyzed by search-engine (picture content is harder to analyze)
+	* Can be used by a screen reader for people with disabilities, allowing them to understand your website.
+	
+	An `alt` description should be provided for every image. You can use the `alt=""` for purely decorative images.
+
 * [`<table>`](https://www.w3schools.com/tags/tag_img.asp) Insert a table
 
 	ex.
