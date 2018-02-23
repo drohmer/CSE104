@@ -158,7 +158,7 @@ __Q.__ Consider the code provided in exercice (mixing_display). Observe that the
 
 Changing the display allows you to set the most appropriate behavior of your element with respect to the neighboring one. When designing a webpage, you should carefully plane what display is the most appropriate for your element.
 
-## Exercice
+## Exercise
 
 Consider the following HTML body
 
