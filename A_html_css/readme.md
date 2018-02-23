@@ -1,6 +1,6 @@
 # HTML/CSS
 
-This part contains a set of tutorials and exercices related to HTML and CSS.
+This part contains a set of tutorials and exercises related to HTML and CSS.
 
 * 01\_html\_basic: Basic HTML syntax
 * 02\_css\_basic: Base of CSS syntax

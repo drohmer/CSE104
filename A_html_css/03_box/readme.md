@@ -142,7 +142,7 @@ p {
 }
 ```
 
-Add a margin on some inline element. Note that it effect acts on the left and right margin, but not on the top and bottom which are ignored. At the opposite of inline-block, the height of inline element is defined by its content, and not by the container itself.
+Add a margin on some inline element. Note that it acts on the left and right margin, but not on the top and bottom, which are ignored. At the opposite of inline-block, the height of inline element is defined by its content, and not by the container itself.
 
 Add a padding on the element. Note that the padding propagates on the top and bottom, but doesn't change the placement of the surrounding elements.
 
