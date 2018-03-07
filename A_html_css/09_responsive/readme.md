@@ -109,9 +109,9 @@ a:hover {
 }
 ```
 
-### Exercice
+### Exercise
 
-__Q.__ Try to create a webpage that mimic the behavior of the one from `exercice/menu/`.
+__Q.__ Try to create a webpage that mimic the behavior of the one from `exercise/menu/`.
 
 ![](pics/exercice.gif)
 

@@ -38,7 +38,7 @@ And note that the change of appearance is now smooth.
 * When the mouse is leaving the block, come back to its original state immediately. A smooth transition can also be set in adding also the `transition` property to the `a` rule.
 
 
-__Q.__ Re-create the behavior shown in the webpage from `exercice/01_transition/`. You can re-use the HTML and CSS code you used in the previous part from the similar webpage.
+__Q.__ Re-create the behavior shown in the webpage from `exercise/01_transition/`. You can re-use the HTML and CSS code you used in the previous part from the similar webpage.
 
 ![](pics/transition.gif)
 
@@ -87,9 +87,9 @@ animation-direction: alternate-reverse;
 75% {transform: rotate(25deg);}
 ```
 
-## Exercices
+## Exercises
 
-__Q.__ Create a webpage that has the behavior of the pendulum shown in the directory `exercice/02_pendulum`
+__Q.__ Create a webpage that has the behavior of the pendulum shown in the directory `exercise/02_pendulum`
 
 ![](pics/pendulum.gif)
 

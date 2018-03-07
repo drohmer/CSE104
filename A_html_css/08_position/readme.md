@@ -141,7 +141,7 @@ __Q.__ Try the following code
 }
 ```
 
-__Q.__ Create the html and css code following the behavior of the exercice `02_absolute`.
+__Q.__ Create the html and css code following the behavior of the exercise `02_absolute`.
 
 ![](pics/absolute_exercice.jpg)
 

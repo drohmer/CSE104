@@ -12,3 +12,5 @@ This part contains a set of tutorials and exercises related to HTML and CSS.
 * 08\_position: Placement of elements using relative, absolute, and floating mode.
 * 09\_responsive: Modeling responsive behaviors
 * 10\_animation: Use of CSS animation
+* 11\_extra: Other usefull tools such as fonts modification
+* 12\_template: Exercise on reproducing existing webpage template

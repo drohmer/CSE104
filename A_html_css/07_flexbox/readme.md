@@ -141,7 +141,7 @@ Flex-box focuses on arranging array of items. A newer CSS layout is also develop
 Note that CSS-grid is still recent, and older browser may not be able to handle it.
 
 
-## Exercices
+## Exercises
 
 
 __Q.__ Write the CSS code that mimic the behavior of the webpage from directory `01_header_footer/`, provided that the html code is the following
@@ -166,12 +166,12 @@ __Q.__ Write the CSS code that mimic the behavior of the webpage from directory 
 </body>
 ```
 
-![](pictures/exercice_01.png)
+![](pictures/exercise_01.png)
 
 _Hint:_ The article can be a flex container with column direction. Header and footer can be flex containers with specific `justifify-content`.
 
 __Q.__ Create the html and css code copying the style of the webpage `02_app_layout/`.
 
-![](pictures/exercice_02.png)
+![](pictures/exercise_02.png)
 
 Note. The shadow can be created by the [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) property.

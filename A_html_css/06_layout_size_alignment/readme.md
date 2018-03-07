@@ -51,7 +51,7 @@ div {
 }
 ```
 
-__Q.__ Try to create a webpage with the layout shown in the exercice _Image and box_
+__Q.__ Try to create a webpage with the layout shown in the exercise _Image and box_
 
 ![](pics/exercice.png)
 
