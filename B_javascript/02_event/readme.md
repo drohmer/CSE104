@@ -41,7 +41,7 @@ __Rem.__
 
 ## DOM modification on events
 
-It is possible to modify the DOM in response to event, for instance in adding new elements.
+It is possible to modify the DOM in response to events, for instance in adding new elements.
 
 * Consider the following HTML and JavaScript code
 
@@ -70,9 +70,9 @@ Note that new elements are added every time the user click on the title.
 
 ## CSS modification
 
-Another possibility of interaction concists in modyfing the CSS appearance of the element.
+Another possibility of interaction consists in modifying the CSS appearance of the element.
 
-* Consider this exemple switching between pre-existing CSS classes
+* Consider this example switching between pre-existing CSS classes
 
 ```html
 <h1>Click on me!</h1>
@@ -101,7 +101,7 @@ title.addEventListener('click',actionClicked);
 
 function actionClicked(event) {
   const element = document.querySelector('div');
-  element.classList.remove("rectangle");
+  element.classList.remove("square");
   element.classList.add("circle");
 }
 ```
