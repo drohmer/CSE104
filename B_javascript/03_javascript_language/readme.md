@@ -10,20 +10,20 @@ The code in `examples/01_declaration` describes different ways of declaring vari
 
 * Run the code in your browser and observe the printed results in the console. Compare the printed results with the code in `script.js` file.
 
-Note that semicolons at the end of the line may be ommited when there is no ambiguity. It is recommended to keep explicit semicolons after every statement.
+Note that semicolons at the end of the line may be omitted when there is no ambiguity. It is recommended to keep explicit semicolons after every statement.
 
 ### Use strict 
 
 Note the first line `"use strict";`.
-This line indicates that the JavaScript code conform to the more recent standard ([ECMAScript 6](http://es6-features.org)). Note that the recent standard is more strict than the old one, limiting odd behaviors and bad practices.
+This line indicates that the JavaScript code conform to the more recent standard ([ECMAScript 6](http://es6-features.org)). Note that the recent standard is stricter than the old one, limiting odd behaviors and bad practices.
 
-As good practice, you should always conform to the more recent standard, thus adding `"use strict";` and following this standard.
+As good practice, you should always conform to the most recent standard, thus adding `"use strict";` and following this standard.
 
 ### Variable
 
 Note the three ways of declaring variables in JavaScript: const, let, var.
 
-`var` is the old way of declaring variables (very commonly found on example code on internet), `const`/`let` are the new norm.
+`var` is the old way of declaring variables (very commonly found on examples code on internet), `const`/`let` are the new norm.
 
 While explained in more details later, you should follow the following priority in declaring your variables:
 1. Use `const` by default for your variable
@@ -106,15 +106,15 @@ result in this rendering in your browser
 
 _Hint_: [join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) allows to define the separator between elements of an array.
 
-__Q.__ Create a programm showing the history of the images which are clicked by the user (see image bellow, or [directly accessible code here](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/B_javascript/03_javascript_language/click_image/)):
+__Q.__ Create a program showing the history of the images which are clicked by the user (see image bellow, or [directly accessible code here](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/B_javascript/03_javascript_language/click_image/)):
 
 ![](pics/image_click.apng)
 
 * The images can be selected when the user click on them.
-* Every time the user click on an image, the text decribing the history of the selected images is updated.
-* A possibility to cancel and erase the history from memory is proposed. The cancel button can be clicked only when there is an existing history to cancel.
+* Every time the user click on an image, the text describing the history of the selected images is updated.
+* A possibility to cancel and erase the history of memory is proposed. The cancel button can be clicked only when there is an existing history to cancel.
 
 __Note__: 
 * You can select all elements satisfying a given selector using [`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).
-* In the function triggered by the `click` event, the selected object can be access using the property [`currentTarget`](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget).
-* The appearance should be described in the CSS file. You can switch appearance in adding/removing CSS class to elements from the JavaScript code. However, avoir setting explicit appearance (such as color, border, etc) in your JavaScript code.
+* In the function triggered by the `click` event, the selected object can be accessed using the property [`currentTarget`](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget).
+* The appearance should be described in the CSS file. You can switch appearance in adding/removing CSS class to elements from the JavaScript code. However, avoid setting explicit appearance (such as color, border, etc) in your JavaScript code.
