@@ -42,6 +42,8 @@ We are using the free keyless access from Google Map service. This free service 
 
 _For a more professional usage, Google will require that you register your application, and may pay a fee for large amount of request._
 
+_If the server indicates you exceed your daily quota, you can request a [personal API key](https://developers.google.com/maps/documentation/javascript/get-api-key#standard-auth) for free. Then add in the url `&key=YOURKEY`_
+
 ### Automatic image request
 
 The static image obtained from the url is a common bitmap image that can be embedded in your webpage.
