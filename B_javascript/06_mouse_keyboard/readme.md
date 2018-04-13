@@ -9,7 +9,7 @@ __Q.__ Create a program listening the following events: `keydown`, `keypress`, `
 
 ## Mouse
 
-__Q.__ Create a program listening to the `mousemove` event. Observe that the event if fired continuously when you move the mouse. To what correspond the values `event.clientX` and `event.clientY`.
+__Q.__ Create a program listening to the `mousemove` event. Observe that the event if fired continuously when you move the mouse. To what corresponds the values `event.clientX` and `event.clientY` ?
 
 ## Exercice
 

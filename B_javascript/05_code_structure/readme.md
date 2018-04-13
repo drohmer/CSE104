@@ -23,7 +23,7 @@ The use of global variables have some advantages for small programs: they are si
 However, for large program, the number of variables you need to handle increase, leading to the use of a lot of global variables. Using lot of global variables for a large and complex project is associated to several drawbacks:
 * You may not remember all your global variables in a large program. It is better to see your variables as local function arguments. (As a general rule, humans can keep in mind six to height variables, if you use more, you will need to refer to their declaration or the documentation)
 ```javascript
-// Exemple with too much variables
+// Example with too much variables
 let x=4, rotation=Math.PI/2, height=2.5, sizeX=4.8;
 const T=[7,8,4,1], twist=0.25, w=1.2;
 const f={z=7.4,table=[9,1,4],orientation=-Math.PI};
@@ -160,7 +160,7 @@ Note:
 
 Although working, we can observe several issues with this code
 * The four functions are almost a copy/paste one another. In working by copy/paste to write such function, there is a high probability to make errors (such as forgetting to update Red to Yellow, Left to Right, etc). As these functions look the same, they are hard to debug.
-A better solution would consists in using a single action function taking some parameters.
+A better solution would consist in using a single action function taking some parameters.
 * All 6 parameters are declared in the global scope. However, only three parameters are required in each individual function. If this program was much longer with higher number of parameters, it would quickly become uneasy to remember which parameter to modify in each function.
 
 
@@ -193,7 +193,7 @@ function main() {
 }
 ```
 
-* The other idea consists in factorizing the four different action functions into a single one. This single function could take as parameters: the current number of click and the increment to add on the left or on the right. The context indicating if the click occurs on the red or yellow box will be handled automatically by the event.
+* The other idea consists in factorizing the four different action functions into a single one. This single function could take as parameters: the current number of clicks and the increment to add on the left or on the right. The context indicating if the click occurs on the red or yellow box will be handled automatically by the event.
 
 ```javascript
 // Only one generic action function
