@@ -70,8 +70,8 @@ function textModified(event) {
 }
 ```
 
-* This code basically copy the content of the input into the textContent entry of the HTML.
-* Note that writing HTML tag (ex. `<p>Hello</p>`) in the textEntry input is only copy and pasted as string, and not interpreted as HTML.
+* This code basically copies the content of the input into the textContent entry of the HTML.
+* Note that writing HTML tag (ex. `<p>Hello</p>`) in the textEntry input is only copied and pasted as string, and not interpreted as HTML.
 
 ### innerHTML
 
