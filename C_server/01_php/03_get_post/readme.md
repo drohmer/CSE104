@@ -28,14 +28,14 @@ http://localhost:8000/?param1=value1&param2=value2
 
 * Observe that the server received the pair of (parameter,value) corresponding to your requests. The GET parameters are automatically accessible from the PHP code using the global `$_GET` variable.
 
-__Q.__ Create a php script that print your firstname and lastname given as parameters in the url `url/?firstname=[value]&lastname=[value]` as shown in [this link](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/03_php_get_post/02_get_name/?firstname=John&lastname=Doe). If the parameters are not set, the message "Hello unknown" should appear.
+__Q.__ Create a php script that print your firstname and lastname given as parameters in the url `url/?firstname=[value]&lastname=[value]` as shown in [this link](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php/03_get_post/02_get_name/?firstname=John&lastname=Doe). If the parameters are not set, the message "Hello unknown" should appear.
 
 _Tips_: You can check that a parameter is provided using the function [isset](http://php.net/manual/en/function.isset.php) (ex. if( isset($_GET["param"]) {...}` ).
 
 __Q.__ Create a php script that show the image from which the user request within its url.
 * You will consider a set of limited pictures with a specific name (ex. `bird.jpg`, `cameleon.jpg`, `cat.jpg`, `dog.jpg`, `squirrel.jpg`) in a directory `pictures/`.
 * The user query is expected to match one of the available filename (ex. `?draw=bird`, `?draw=squirrel`, etc.)
-* [Example of working script](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/03_php_get_post/03_get_picture/?draw=dog).
+* [Example of working script](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php/03_get_post/03_get_picture/?draw=dog).
 
 ## Communicating via HTML forms
 
@@ -52,7 +52,7 @@ The general syntax of an HTML form using the GET method to transfert the informa
 </form>
 ```
 
-__Q.__ Create a form [similar to this page](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/03_php_get_post/04_form/) asking firstname, lastname, and email. When the user click on Submit, a message greeting him by its name and reminding the email is printed.
+__Q.__ Create a form [similar to this page](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php/03_get_post/04_form/) asking firstname, lastname, and email. When the user click on Submit, a message greeting him by its name and reminding the email is printed.
 
 Observe that GET method is used by default for the query, thus the parameters on the form appears in the url after you click on the Submit button.
 
@@ -71,7 +71,7 @@ __Q.__ Modify your previous exercise to send your firstname, lastname, and mail 
 
 ## Exercise - Shared email listing
 
-__Q.__ Create an application similar to the [one shown in example](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/03_php_get_post/05_exercise_email_list/).
+__Q.__ Create an application similar to the [one shown in example](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php/03_get_post/05_exercise_email_list/).
 * The user can add a name (firstname, lastname) and an email to the server.
 * The server stores the contact in a csv file (text file where each element is separated by, for instance, a comma). (note that csv files can be read and modified using standard spreadsheet tools such as Excel/LibreOffice).
 * The contact should be sent using a POST method to the server.

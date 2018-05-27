@@ -144,7 +144,7 @@ and
 
 One of the common use of file inclusion is to reuse common parts in different html pages such as menu, and footer informations. This allows to avoid copy/paste in multiple HTML files, that would lead to complex and error prone  update process.
 
-__Q.__ Copy the behavior of the [following page](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php_basic/index.php) using PHP.
+__Q.__ Copy the behavior of the [following page](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php/01_basic/index.php) using PHP.
 * The website has two main pages: `index.php` and `contact.php` who only differ from their content.
 * The menu and the footer are identical in both pages: they should be described only once in a `header.php` and `footer.php`. Their content should be included in `index.php` and `contact.php`.
 * The date of the copyright can be automatically computed to the current year using the function [date](http://php.net/manual/en/function.date.php).
