@@ -44,6 +44,3 @@ When a client will query the server at its root `/`, the server will respond wit
 * Open your browser at the url `http://localhost:8000/` and observe that the server is responding.
 
 * Observe the source code of your HTML page. In real scenario, a complete response with HTML markup can be made.
-
-## Routing
-
