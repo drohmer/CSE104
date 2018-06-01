@@ -1,13 +1,13 @@
 # Introduction to PHP
 
-PHP (Hypertext Preprocessor) is a programming language enabling to automatize the creation of HTML webpage. PHP code is executed on the server side, which generate and return its result as an HTML page to the client.
+PHP (Hypertext Preprocessor) is a programing language enabling to automatise the creation of HTML webpage. PHP code is executed on the server side, which generates and return its result as an HTML page to the client.
 
-## First embeeded PHP program
+## First embedded PHP program
 
-PHP can be embeeded inside HTML code, which allows to write HTML in a standard way, while only including PHP when needed.
+PHP can be embedded inside HTML code, which allows to write HTML in a standard way, while only including PHP when needed.
 
 
-### Writting PHP
+### Writing PHP
 
 * Create a php file named `index.php` with the following code
 
@@ -40,7 +40,7 @@ Note that the `print` command in PHP allows to print the value within the result
 
 ### Executing PHP
 
-Contrary to HTML and JavaScript, PHP file cannot be executed directly by the browser. PHP are meant to be executed by a PHP interpretor on a server.
+Contrary to HTML and JavaScript, PHP files cannot be executed directly by the browser. PHP are meant to be executed by a PHP interpreter on a server.
 
 * Run the following command from a terminal in the directory of your index.php file.
 
@@ -48,17 +48,17 @@ Contrary to HTML and JavaScript, PHP file cannot be executed directly by the bro
 php -S localhost:8000
 ```
 
-This command run the php interpreter and start a server on the address `localhost` on the port 8000. Note that `localhost` is the a common hostname designating the local machine. This emulate the behavior of a server that run locally on your machine.
+This command run the php interpreter and start a server on the address `localhost` on the port 8000. Note that `localhost` is a common hostname designating the local machine. This emulate the behavior of a server that run locally on your machine.
 
 * Start your browser at the following address `http://localhost:8000/`
 
 You should be able to see the message "This text is written by PHP!" in your browser.
 
-_Explanation_: Your browser queried the server at the adress `localhost` on the port 8000 (the local machine). This server was listening and answered in executing the PHP interpreter on the file `index.php` by default. The result is the HTML file you can observe in your browser.
+_Explanation_: Your browser queried the server at the address `localhost` on the port 8000 (the local machine). This server was listening and answered in executing the PHP interpreter on the file `index.php` by default. The result is the HTML file you can observe in your browser.
 
 ### Loop
 
-The previous program has no advantage compared to basic HTML. However, PHP can automatize task in using conditionals and loops.
+The previous program has no advantage compared to basic HTML. However, PHP can automatise task in using conditionals and loops.
 
 * Add the following PHP code and observe the result
 
@@ -71,13 +71,13 @@ for($k=0; $k<10; $k++) {
 __Note__
 * PHP variables are preceded of the $ symbol.
 * PHP variables are typed dynamically
-* Each PHP sentance should be terminated by a ;
+* Each PHP sentence should be terminated by a ;
 
 * Observe the source code of the HTML result in your browser. Note that the PHP source doesn't appear. You only see the resulting HTML code. At the opposite of JavaScript which is executed locally by the client, PHP is executed on the server, thus the client can only observe the result but not the code source.
 
 ## Array
 
-PHP arrays are similar to JavaScript arrays as they can contains any element, with, possibly, non consecutive index.
+PHP arrays are similar to JavaScript arrays as they can contain any element, with, possibly, non-consecutive index.
 
 Example:
 
@@ -142,7 +142,7 @@ and
 * Observe the behavior when `part_1.php` is not accessible (removed or renamed for instance). Change `require` into `include` and observe that, in this case, the page is loaded but only `part_2` is included.
 
 
-One of the common use of file inclusion is to reuse common parts in different html pages such as menu, and footer informations. This allows to avoid copy/paste in multiple HTML files, that would lead to complex and error prone  update process.
+One of the common use of file inclusion is to reuse common parts in different html pages such as menu, and footer informations. This allows to avoid copy/paste in multiple HTML files, that would lead to complex and error-prone  update process.
 
 __Q.__ Copy the behavior of the [following page](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php/01_basic/index.php) using PHP.
 * The website has two main pages: `index.php` and `contact.php` who only differ from their content.
