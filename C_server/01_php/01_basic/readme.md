@@ -48,7 +48,7 @@ Contrary to HTML and JavaScript, PHP files cannot be executed directly by the br
 php -S localhost:8000
 ```
 
-This command run the php interpreter and start a server on the address `localhost` on the port 8000. Note that `localhost` is a common hostname designating the local machine. This emulate the behavior of a server that run locally on your machine.
+This command run the php interpreter and start a server on the address `localhost` on the port 8000 (note that you can use other port number). Note that `localhost` is a common hostname designating the local machine. This emulate the behavior of a server that run locally on your machine.
 
 * Start your browser at the following address `http://localhost:8000/`
 
@@ -71,7 +71,7 @@ for($k=0; $k<10; $k++) {
 __Note__
 * PHP variables are preceded of the $ symbol.
 * PHP variables are typed dynamically
-* Each PHP sentence should be terminated by a ;
+* Each PHP sentence should be terminated by a ";"
 
 * Observe the source code of the HTML result in your browser. Note that the PHP source doesn't appear. You only see the resulting HTML code. At the opposite of JavaScript which is executed locally by the client, PHP is executed on the server, thus the client can only observe the result but not the code source.
 
@@ -114,7 +114,7 @@ sayHello("Dave");
 
 PHP is able to include and concatenate the content from various files using the [include](http://php.net/manual/en/function.include.php) or [require](http://php.net/manual/en/function.require.php) functions. This allows to split your resulting HTML files into separated elements that can be reused in different context.
 
-The behavior of `include` and `require` are similar excepted in the failure case when the file cannot be found. In this case, `Include` will emit a warning and the PHP interpretation will continue, while `require` will end the interpretation with a fatal error.
+The behavior of `include` and `require` are similar excepted in the failure case when the file cannot be found. In this case, `include` will emit a warning and the PHP interpretation will continue, while `require` will end the interpretation with a fatal error.
 
 * Create a file `index.php` with the following content
 
