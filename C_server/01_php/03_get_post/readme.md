@@ -1,8 +1,8 @@
 # GET and POST
 
 Client can send parameters to the server via two methods: GET and POST.
-* __GET__ consists in sending parameters explicitely in the url of the page under the textual form: `url/?param1=value1&param2=value2&...`. You already used it when querying maps using JavaScript.
-* __POST__ consists in sending parameters implicitely within the request to the server. The parameters are not shown on the URL.
+* __GET__ consists in sending parameters explicitly in the url of the page under the textual form: `url/?param1=value1&param2=value2&...`. You already used it when querying maps using JavaScript.
+* __POST__ consists in sending parameters implicitly within the request to the server. The parameters are not shown on the URL.
 
 GET and POST parameters are received by the server and can be used as wanted. While using GET or POST is let to the user choice, the following rule is usually followed
 * GET is used to query information from a server. The parameters are sent in clear textual form and should not be considered as private information.
@@ -20,7 +20,7 @@ foreach($_GET as $name=>$value) {
 ?>
 ```
 
-* Run the server localy, and query this page with the following url
+* Run the server locally, and query this page with the following url
 
 ```bash
 http://localhost:8000/?param1=value1&param2=value2
@@ -32,7 +32,7 @@ __Q.__ Create a php script that print your firstname and lastname given as param
 
 _Tips_: You can check that a parameter is provided using the function [isset](http://php.net/manual/en/function.isset.php) (ex. if( isset($_GET["param"]) {...}` ).
 
-__Q.__ Create a php script that show the image from which the user request within its url.
+__Q.__ Create a php script that shows the image from which the user request within its url.
 * You will consider a set of limited pictures with a specific name (ex. `bird.jpg`, `cameleon.jpg`, `cat.jpg`, `dog.jpg`, `squirrel.jpg`) in a directory `pictures/`.
 * The user query is expected to match one of the available filename (ex. `?draw=bird`, `?draw=squirrel`, etc.)
 * [Example of working script](https://imagecomputing.net/damien.rohmer/teaching/2017_2018/semester_2/CSE_104/online_exercices/C_server/01_php/03_get_post/03_get_picture/?draw=dog).
@@ -41,7 +41,7 @@ __Q.__ Create a php script that show the image from which the user request withi
 
 While url parameters can be sent in an automatic way, HTML forms containing inputs ([as seen in JavaScript](https://github.com/drohmer/CSE104/tree/master/B_javascript/04_inputs)) are the common way to provide information directly from the user.
 
-The general syntax of an HTML form using the GET method to transfert the information into the `url/file.php` script is the following
+The general syntax of an HTML form using the GET method to transfer the information into the `url/file.php` script is the following
 
 ```html
 <form action="url/file.php">
@@ -58,7 +58,7 @@ Observe that GET method is used by default for the query, thus the parameters on
 
 ## Post message
 
-POST method can also be used to send informations to the server from a form - typically to avoid that all parameters appears on the resulting url.
+POST method can also be used to send information to the server from a form - typically to avoid that all parameters appear on the resulting url.
 
 * To send using POST method, change the HTML form beginning by the following
 ```html
@@ -67,7 +67,7 @@ POST method can also be used to send informations to the server from a form - ty
 
 * POST parameters can be retrieved in your php script using the global variable `$_POST`. Its use is similar to the `$_GET` variable used so far.
 
-__Q.__ Modify your previous exercise to send your firstname, lastname, and mail adress using POST method.
+__Q.__ Modify your previous exercise to send your firstname, lastname, and mail address using POST method.
 
 ## Exercise - Shared email listing
 

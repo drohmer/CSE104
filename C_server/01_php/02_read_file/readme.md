@@ -1,6 +1,6 @@
 # File
 
-For security reasons, client based JavaScript code has limited access to the ressources of the host system. Your browser acts as a so called 'sandbox' protecting the rest of your system from external code from the internet. Therefore reading/writing file on the client system is not a basic feature of the JavaScript language.
+For security reasons, client based JavaScript code has limited access to ressources of the host system. Your browser acts as a so called 'sandbox' protecting the rest of your system from external code from the internet. Therefore reading/writing file on the client system is not a basic feature of the JavaScript language.
 At the opposite, servers don't execute external code, but their own. Therefore, they are supposed to be able to handle their environment. As a result code executed on a server can easily access to local files on the same server.
 
 
