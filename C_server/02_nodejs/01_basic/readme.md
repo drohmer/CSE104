@@ -6,6 +6,10 @@ Node.js is a stand-alone JavaScript interpreter. Node.js can be used to execute 
 
 First make sure that node.js and npm are installed on your machine.
 
+On Linux system, standard package manager are usually handling these two softwares.
+If you don't have root access to install packages on your system, you may follow [these methods](https://gist.github.com/isaacs/579814) (the second proposition should work for both node.js and npm).
+
+
 ## First node.js program.
 
 * Create a file `server.js` with the following JavaScript code
