@@ -4,7 +4,7 @@ While PHP code is very convenient to generate HTML webpage, Node.js code can ver
 
 ## JSON fetch
 
-We remind that fetch [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (as used in [this exercise](https://github.com/drohmer/CSE104/tree/master/B_javascript/10_api_json)) is used to contact a server from JavaScript client code.
+We remind that [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (as used in [this exercise](https://github.com/drohmer/CSE104/tree/master/B_javascript/10_api_json)) is used to contact a server from JavaScript client code.
 
 Fetch can notably be used to send query to a server using GET parameters within the URL, and then receive a response, typically in the form of JSON data.
 
